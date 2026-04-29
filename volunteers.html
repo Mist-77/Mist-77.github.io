@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Volunteers | MechMayhem</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<script src="script.js"></script>
+<body>
+
+  <header class="page-header">
+    <h1>
+  Student Ambassadors for <span class="mech-font">MECHMAYHEM</span>
+</h1>
+    <p class="header-subtitle1">
+  Help deliver MechMayhem and support the next generation of student engineers.
+</p>
+
+  <main class="section">
+
+    <h2>Training and Volunteer Schedule</h2>
+    <p>
+      Volunteers will support workshops, mentor high school teams, assist with robot kit preparations,
+      and/or help run the final competition day. See the <a href="timeline.html">Timeline</a> on the home page for key dates and time commitments.
+    </p>
+
+    <h2>Volunteer Sign-Up</h2>
+
+    <form class="form" action="https://formspree.io/f/mkokdwqj" method="POST">
+        
+      <label>
+        Full Name
+        <input type="text" name="name" required />
+      </label>
+
+      <label>
+        Email
+        <input type="email" name="email" required />
+      </label>
+
+      <fieldset>
+        <legend>I can help with:</legend>
+
+          <div class="role-group">
+    <h3>Workshops</h3>
+
+     <label><input type="checkbox" name="roles[]" value="CAD Workshop #1"> Compulsory Training and Induction</label>
+
+    <label><input type="checkbox" name="roles[]" value="CAD Workshop #1"> CAD / Design Workshop #1</label>
+    <label><input type="checkbox" name="roles[]" value="CAD Workshop #2"> CAD / Design Workshop #2</label>
+    <label><input type="checkbox" name="roles[]" value="CAD Workshop #3"> CAD / Design Workshop #3</label>
+
+    <label><input type="checkbox" name="roles[]" value="Soldering Workshop #1"> Soldering / Assembly Workshop #1</label>
+    <label><input type="checkbox" name="roles[]" value="Soldering Workshop #2"> Soldering / Assembly Workshop #2</label>
+    <label><input type="checkbox" name="roles[]" value="Soldering Workshop #3"> Soldering / Assembly Workshop #3</label>
+  </div>
+
+  <div class="role-group">
+    <h3>Operations</h3>
+
+    <label><input type="checkbox" name="roles[]" value="Technical Preparations"> Technical Product Preparations</label>
+     <label><input type="checkbox" name="roles[]" value="Management"> Interested in a management position</label>
+  
+  </div>
+
+  <div class="role-group">
+    <h3>School/Student Experience</h3>
+
+    <label><input type="checkbox" name="roles[]" value="School Mentoring"> School Mentoring</label>
+  </div>
+
+  <div class="role-group">
+    <h3>Competition</h3>
+
+    <label><input type="checkbox" name="roles[]" value="Final Competition Day"> Final Competition Day</label>
+  </div>
+      </fieldset>
+
+      <label>
+        Get your past high school involved
+        <textarea name="school" placeholder="Tell us your school name and any teacher contacts."></textarea>
+      </label>
+
+      <button type="submit">Submit Volunteer Form</button>
+    </form>
+
+  </main>
+
+</body>
+</html>
